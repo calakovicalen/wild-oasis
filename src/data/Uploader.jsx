@@ -46,14 +46,14 @@ async function createBookings() {
     .from("guests")
     .select("id")
     .order("id");
-  const allGuestIds = guestsIds.map((cabin) => cabin.id);
+  const allGuestIds = guestsIds.map(cabin => cabin.id);
   const { data: cabinsIds } = await supabase
     .from("cabins")
     .select("id")
     .order("id");
-  const allCabinIds = cabinsIds.map((cabin) => cabin.id);
+  const allCabinIds = cabinsIds.map(cabin => cabin.id);
 
-  const finalBookings = bookings.map((booking) => {
+  const finalBookings = bookings.map(booking => {
     // Here relying on the order of cabins, as they don't have and ID yet
     const cabin = cabins.at(booking.cabinId - 1);
     const numNights = subtractDates(booking.endDate, booking.startDate);
@@ -138,7 +138,7 @@ function Uploader() {
         gap: "8px",
       }}
     >
-      <h3>SAMPLE DATA</h3>
+      <h3 style={{ color: "#374151" }}>SAMPLE DATA</h3>
 
       <Button onClick={uploadAll} disabled={isLoading}>
         Upload ALL
