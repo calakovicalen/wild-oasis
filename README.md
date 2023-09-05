@@ -1,9 +1,11 @@
-# React + Vite
+# The Wild Oasis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Wild Oasis project is web application created using Supabase as it's backend and React and many of its 3rd party libraries as it's frontend.
 
-Currently, two official plugins are available:
+You can fully explore it if you log in by using these credentials:
+username: alen@example.com
+password: pass0987
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# wild-oasis
+To make data be at current date you have in bottom left corner Uploader which uploads files to most recent date.
+
+Thanks for visiting my project and I hope you like it!
