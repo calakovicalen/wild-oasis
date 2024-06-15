@@ -74,6 +74,8 @@ You can fully explore the application by logging in with the following credentia
 
 To make the data current, use the Uploader in the bottom left corner to upload files to the most recent date.
 
+Visit the live application [here](https://alen-wild-oasis.netlify.app/login).
+
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements, feel free to create an issue or submit a pull request.
