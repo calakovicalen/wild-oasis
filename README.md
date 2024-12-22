@@ -4,15 +4,17 @@ The Wild Oasis is a web application designed to provide a seamless user experien
 
 ## Table of Contents
 
-- [Features](#features)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Project](#running-the-project)
-- [Demo](#demo)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- [The Wild Oasis](#the-wild-oasis)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Technologies](#technologies)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Running the Project](#running-the-project)
+  - [Demo](#demo)
+  - [Contributing](#contributing)
+  - [Contact](#contact)
 
 ## Features
 
@@ -69,8 +71,9 @@ Open your browser and navigate to `http://localhost:5173` to see the application
 ## Demo
 
 You can fully explore the application by logging in with the following credentials:
+
 - **Username**: `alen@example.com`
-- **Password**: `pass0987`
+- **Password**: `alen123`
 
 To make the data current, use the Uploader in the bottom left corner to upload files to the most recent date.
 
